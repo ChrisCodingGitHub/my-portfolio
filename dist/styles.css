@@ -111,6 +111,17 @@ img {
     border: 0
 }
 
+img.profile-pic{
+    max-width: 75%;
+    height: auto;
+}
+
+.background-color-layer{
+    margin: auto;
+    max-width: 100%;
+    max-height: auto;
+}
+
 svg:not(:root) {
     overflow: hidden
 }
