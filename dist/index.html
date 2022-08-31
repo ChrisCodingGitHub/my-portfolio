@@ -7,7 +7,6 @@
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
@@ -44,22 +43,22 @@
  
  <div class="container">
    <div class="row">
-     <div class="col-xs-12">
+     <div class="col-md-12">
 
         <div class="card">
           <div class="card-block">
             <h2>About me</h2>
             <div class="row">
               <div class="col-md-4">
-                <p><img src="./assets/images/profile-pic.jpg" class="img-responsive profile-pic" alt=""></p>
+                <p><img src="./assets/images/profile-pic.jpg" class="img-responsive img-circle profile-pic" alt=""></p>
               </div>
               <div class="col-md-8">
 
-              <p>My passion for computers started at a young age and grew to a curiosity that I am glad I continue to have today. I jumped education paths from being a pre-med student into the field of software because I knew it was where my passion was.</p>
+              <p>My passion for computers started at a young age and grew to a curiosity that I carry with me today. In college, that same curiosity led me into the field of software where I quickly learned it was a good fit for me.</p>
               <br>
-              <p>With a year left until completing my Bachelor's degree in computer science, I dove into an internship which quickly led to being hired full time as a Java Developer for the Division of Technology Services within the Utah Department of Health.</p>
+              <p>With a year left until completing my Bachelor's degree in computer science, I dove into an internship which promptly led to being hired on full time as a Java Developer for the Division of Technology Services within the Utah Department of Health.</p>
               <br>
-              <p>After nearly two years as a Java Developer, I shifted gears when I was offered my current Software Engineer position with Impartner where I have continued growing my knowledge and skill set of designing, building, testing, and maintaining software.</p>
+              <p>After nearly two years as a Java Developer, I shifted gears when I was offered my current position as a Software Engineer with Impartner where I've continued growing my skill set in designing, building, testing, and maintaining software.</p>
 
               </div>
             </div>
@@ -70,23 +69,27 @@
           <div class="card-block">
             <h2>Recent Projects</h2>
             <div class="row">
-              <a href="https://chriscodinggithub.github.io/angular-directory-demo/" target="_blank">
+              <a class="projects" href="https://chriscodinggithub.github.io/angular-directory-demo/" target="_blank">
                 <div class="col-md-4">
                   <img src="./assets/images/img-02.jpg" class="img-responsive" alt="">
                   <h3 class="h5">Angular Directory Demo</h3>
-                  <p>August 2022</p>
+                  <p class="project-dates">August 2022</p>
                 </div>
               </a>
-              <div class="col-md-4">
-                <img src="./assets/images/img-03.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Portland</h3>
-                <p>March 2017</p>
-              </div>
-              <div class="col-md-4">
-                <img src="./assets/images/img-04.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Denz for Nilon</h3>
-                <p>Jan 2017</p>
-              </div>
+              <a class="projects" href="">
+                <div class="col-md-4">
+                  <img src="./assets/images/img-03.jpg" class="img-responsive" alt="">
+                  <h3 class="h5">Portland</h3>
+                  <p class="project-dates">March 2017</p>
+                </div>
+              </a>
+              <a class="projects" href="">
+                <div class="col-md-4">
+                  <img src="./assets/images/img-04.jpg" class="img-responsive" alt="">
+                  <h3 class="h5">Denz for Nilon</h3>
+                  <p class="project-dates">Jan 2017</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -114,7 +117,7 @@
             <h2>Education</h2>
             <div class="row">
               <div class="col-md-2">
-                <img src="./assets/images/weber-state-university-squarelogo.png" class="img-responsive" alt="">
+                <img id="education-crest" src="./assets/images/weber-state-university-squarelogo.png" class="img-responsive" alt="">
               </div>
               <div class="col-md-5">
                 <div class="education-experience">
@@ -123,7 +126,7 @@
                   <h3 class="h5 date-title">Bachelor's Degree</h3>
                   <small>Computer Science</small>
                 </div>
-                
+                <br>
               </div>
               <div class="col-md-5">
                 <div class="education-experience">
@@ -132,6 +135,7 @@
                   <h3 class="h5 date-title">Summa Cum Laude Award</h3>
                   <small>3.98 GPA</small>
                 </div>
+                <br>
               </div>
             </div>
           </div>
@@ -193,6 +197,7 @@
             
 
             <!-- Wrapper for slides -->
+            <!-- Look at the carousel-inner styling when wiring this up to js -->
             <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <img src="./assets/images/img-05.jpg" class="img-responsive" alt="...">
@@ -257,7 +262,7 @@
                 <input type="text" class="form-control" id="subject" placeholder="Subject">
               </div>
               <div class="form-group">
-                <textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                <textarea class="form-control" rows="6" placeholder="Enter your message"></textarea>
               </div>
               <div class="form-group">
                 <button type="submit" class=" btn btn-primary">Send message</button>
